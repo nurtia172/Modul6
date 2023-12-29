@@ -8,3 +8,5 @@ environment - path : 3.10 Vscode : pip isntall flask . pip install tensorflow . 
 Web dapat diakses dengan url http://127.0.0.1:2000
 
 Dataset Project ini menggunakan dataset rock paper scissor dengan jumlah data sebanyak 2520 file. Load image menggunakan image_dataset_from_directory dari pustaka resNet dengan pembagian train validation dan test validation dengan seed 123. Dataset menggunakan label categorical sehingga label dalam bentuk one hot encoding. Image size menggunakan (224, 244) dan batch size menggunkan 128
+
+![WhatsApp Image 2023-12-29 at 14 36 19](https://github.com/nurtia172/Modul6/assets/80872003/038d32b4-2bf2-4967-ba66-b3af93e4f3f1)
